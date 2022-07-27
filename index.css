@@ -1,0 +1,113 @@
+/* CAMBIOS GENERALES */
+.container-fluid, .row, .contenedorTrabajos{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+a{
+
+    text-decoration: none !important;
+}
+/* TITULO */
+.contenedorTitulo{
+   
+    background-image: linear-gradient(rgba(
+    55,55,55,0.7), rgba(55,55,55,0.7)) , url(https://www.fondoshd.mx/wallpapers/resoluciones/20/fondos-de-pantalla-de-oficina-gratis_1920x1080_4425.jpg) ;
+    background-size: cover;
+    background-position: 0 30rem;
+    height: 50vh;
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: whitesmoke;
+}
+/* TECNOLOGIAS */
+.contenedorHabilidadesyTitulo{
+    background-color: black;
+    height: 50vh;
+}
+.contenedorHabilidades{
+    height: 70%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tituloHabilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 2vw 0 2vw;
+    color: white;
+}
+
+.tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    
+}
+.textoTecnologia{
+    color: white;
+}
+.imagenTecnologia{
+
+    height: 100%;
+    background-size: cover;
+}
+/* TRABAJOS */
+ .contenedorTrabajos{
+    background-color: #494549;
+} 
+ .TrabajosyTexto{
+    height: 100%;
+    width: 100%;
+} 
+.trabajo{  
+    display: flex;
+    height: 40vh;
+}
+#contenedorBotanicLife{
+    background-color: #4FB11A;
+}
+.contenedorImagenTrabajo{
+    width: 40%;
+}
+.trabajoImg{
+    height: 100%;
+    width: 100%;
+}
+.contenedorTextoTrabajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.textoTrabajo{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.3rem;
+}
+.LinkBotanic , .LinkPiazzolla{
+    color: white !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.2rem !important;
+}
+.botonBotanic{
+    background-color: #438C1B !important;
+}
+.botonPiazzolla{
+    background-color: #262926 !important;
+}
+
