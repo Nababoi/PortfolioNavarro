@@ -9,20 +9,39 @@ a{
 }
 /* TITULO */
 .contenedorTitulo{
-   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     background-image: linear-gradient(rgba(
     55,55,55,0.7), rgba(55,55,55,0.7)) , url(https://www.fondoshd.mx/wallpapers/resoluciones/20/fondos-de-pantalla-de-oficina-gratis_1920x1080_4425.jpg) ;
     background-size: cover;
     background-position: 0 30rem;
     height: 50vh;
 }
-.titulo{
+.presentacion{
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     height: 100%;
     color: whitesmoke;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 54%;
+    
+}
+.red{
+    margin: 0 2vw;
+}
+.imgRed{
+    height: 5vh;
 }
 /* TECNOLOGIAS */
 .contenedorHabilidadesyTitulo{
@@ -71,17 +90,28 @@ a{
 } 
 .trabajo{  
     display: flex;
-    height: 40vh;
+    height: 100vh;
 }
-#contenedorBotanicLife{
+#borde{
+    border-top: 0.3rem white solid !important;
     background-color: #4FB11A;
 }
+
 .contenedorImagenTrabajo{
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
 }
 .trabajoImg{
-    height: 100%;
-    width: 100%;
+    height: 30%;
+    width: 60%;
+}
+#imgBotanic{
+    height: 40%;
+    width: 80%;
 }
 .contenedorTextoTrabajo{
     display: flex;
@@ -95,9 +125,11 @@ a{
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 2rem;
-    letter-spacing: 0.3rem;
+    font-size: 2.4vw;
+    line-height: 3rem;
+    letter-spacing: 0.4rem;
+    width: 90%;
+    padding: 3vw 3vw 1vw 0;
 }
 .LinkBotanic , .LinkPiazzolla{
     color: white !important;
@@ -109,5 +141,29 @@ a{
 }
 .botonPiazzolla{
     background-color: #262926 !important;
+}
+/* CONTACTO */
+.contenedorContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 60vh;
+}
+.contacto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 3vw 0;
+    border-radius: 1rem;
+
+}
+.anchoInput{
+    width: 60% !important;
 }
 
