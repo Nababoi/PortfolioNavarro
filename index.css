@@ -18,6 +18,7 @@ a{
     background-image: linear-gradient(rgba(
     55,55,55,0.7), rgba(55,55,55,0.7)) , url(https://www.fondoshd.mx/wallpapers/resoluciones/20/fondos-de-pantalla-de-oficina-gratis_1920x1080_4425.jpg) ;
     background-size: cover;
+    background-attachment: fixed;
     background-position: 0 30rem;
     height: 50vh;
 }
@@ -87,38 +88,55 @@ a{
  .TrabajosyTexto{
     height: 100%;
     width: 100%;
+    background-color: rgba(0,0,0,0.4);
 } 
 .trabajo{  
     display: flex;
+    flex-direction: column;
     height: 100vh;
+    background-image: url(https://www.laportadacanada.com/userfiles/images/culturalnota1fo2.jpg);
+    background-attachment: fixed;
 }
 #borde{
     border-top: 0.3rem white solid !important;
-    background-color: #4FB11A;
+    background-image: url(https://images5.alphacoders.com/427/thumb-1920-427274.jpg);
+    height: 120vh;
 }
 
 .contenedorImagenTrabajo{
-    width: 40%;
+    width: 100%;
+    height: 50%;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
+    position: relative;
+}
+#contenedorImagenTrabajoBotanic{
+    background-color: rgba(0,0,0,0.4);
+}
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
 .trabajoImg{
-    height: 30%;
-    width: 60%;
+    height: 60%;
+    width: 30%;
+    border-radius: 0.7rem;
 }
 #imgBotanic{
-    height: 40%;
-    width: 80%;
+    height: 80%;
+    width: 40%;
 }
 .contenedorTextoTrabajo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.5);
 }
 .textoTrabajo{
     color: white;
@@ -128,8 +146,7 @@ a{
     font-size: 2.4vw;
     line-height: 3rem;
     letter-spacing: 0.4rem;
-    width: 90%;
-    padding: 3vw 3vw 1vw 0;
+    width: 80%;
 }
 .LinkBotanic , .LinkPiazzolla{
     color: white !important;
