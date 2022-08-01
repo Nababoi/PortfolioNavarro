@@ -22,6 +22,9 @@ a{
     background-position: 0 30rem;
     height: 50vh;
 }
+.tituloHab{
+    font-size: 3.6vw;
+}
 .presentacion{
     display: flex;
     text-align: center;
@@ -47,13 +50,13 @@ a{
 /* TECNOLOGIAS */
 .contenedorHabilidadesyTitulo{
     background-color: black;
-    height: 50vh;
+    min-height: 50vh;
+
 }
 .contenedorHabilidades{
-    height: 70%;
     display: flex;
     
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -71,6 +74,7 @@ a{
     align-items: center;
     height: 8rem;
     width: 8rem;
+    margin: 2rem;
     
 }
 .textoTecnologia{
@@ -132,6 +136,7 @@ a{
 #imgBotanic{
     height: 49vh;
     width: 43vw;
+    margin: 2rem;
 }
 .contenedorTextoTrabajo{
     display: flex;
