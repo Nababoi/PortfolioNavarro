@@ -218,7 +218,9 @@ a{
 
 @media screen and (max-width: 425px){
     #imgBotanic{
-        height: 41vh;
+        height: 35vh;
+        width: 69vw;
+        margin: 1rem;
     }
 }
 
