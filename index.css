@@ -198,4 +198,20 @@ a{
 .fondoTextArea{
     background-color: rgba(0,0,0,0.5) !important;
 }
+@media screen and (max-width: 1200px){
+    #imgBotanic{
+        width: 62vw;
+    }
+}
 
+@media screen and (max-width: 992px){
+    .contacto{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contacto{
+        height: 58%;
+    }
+}
