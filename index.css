@@ -215,3 +215,16 @@ a{
         height: 58%;
     }
 }
+
+@media screen and (max-width: 425px){
+    #imgBotanic{
+        height: 41vh;
+    }
+}
+
+@media screen and (max-width: 330px){
+    #imgBotanic{
+        height: 37vh;
+        width: 75vw;
+    }
+}
