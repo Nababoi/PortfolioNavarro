@@ -198,25 +198,30 @@ a{
 .fondoTextArea{
     background-color: rgba(0,0,0,0.5) !important;
 }
-@media screen and (max-width: 1200px){
+
+@media screen and (min-width: 360px){
+    .contenedorImagenTrabajo{
+        padding: 1rem;
+    }
     #imgBotanic{
-        width: 62vw;
+        height: 30vh;
+        width: 82vw;
+        margin: 1rem;
     }
-}
 
-@media screen and (max-width: 992px){
     .contacto{
-        width: 70%;
+        height: 54% ;
+        width: 90%;
+    }
+    .anchoInput{
+        font-size: 7vw ;
+    }
+    .fondoTextArea{
+        font-size: 4vw;
     }
 }
 
-@media screen and (max-width: 768px){
-    .contacto{
-        height: 58%;
-    }
-}
-
-@media screen and (max-width: 425px){
+@media screen and (min-width: 425px){
     #imgBotanic{
         height: 35vh;
         width: 69vw;
@@ -224,17 +229,27 @@ a{
     }
 }
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 768px){
+    .contacto{
+        height: 58%;
+    }
+} 
+
+@media screen and (min-width: 992px){
+    
     #imgBotanic{
-        height: 37vh;
-        width: 75vw;
+        width: 64vw;
+        height: 48vh;
     }
 
     .contacto{
-        height: 50%;
-        width: 80%;
-    }
-    .container-fluid .row .contenedorContacto .anchoInput{
-        font-size: 3.6rem !important;
+        width: 70%;
     }
 }
+
+@media screen and (min-width: 1200px){
+    #imgBotanic{
+        width: 62vw;
+    }
+}
+
