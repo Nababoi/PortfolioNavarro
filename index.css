@@ -227,6 +227,9 @@ a{
         width: 69vw;
         margin: 1rem;
     }
+    .anchoInput{
+        font-size: 4.4vw;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -245,11 +248,20 @@ a{
     .contacto{
         width: 70%;
     }
+    .anchoInput{
+        font-size: 3.4vw;
+    }
 }
 
 @media screen and (min-width: 1200px){
+    
+
     #imgBotanic{
-        width: 62vw;
+        width: 44vw;
+        height: 49vh;
+    }
+    .anchoInput{
+        font-size: 3vw;
     }
 }
 
