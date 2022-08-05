@@ -200,6 +200,10 @@ a{
 }
 
 @media screen and (min-width: 360px){
+    .tituloHab{
+        font-size: 8.6vw;
+        text-align: center;
+    }
     .contenedorImagenTrabajo{
         padding: 1rem;
     }
@@ -209,9 +213,17 @@ a{
         margin: 1rem;
     }
 
+    .textoTrabajo{
+        
+        font-size: 3.3vw;
+        line-height: 2.4rem;
+        letter-spacing: 0.3rem;
+
+    }
+
     .contacto{
-        height: 54% ;
-        width: 90%;
+        height: 45% ;
+        width: 100%;
     }
     .anchoInput{
         font-size: 7vw ;
@@ -222,6 +234,9 @@ a{
 }
 
 @media screen and (min-width: 425px){
+    .tituloHab{
+        font-size: 3vw;
+    }
     #imgBotanic{
         height: 35vh;
         width: 69vw;
