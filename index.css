@@ -200,9 +200,24 @@ a{
 }
 
 @media screen and (min-width: 360px){
+    .presentacion{
+        font-size: 6vw;
+        letter-spacing: 0.1rem;
+        line-height: 2.1rem;
+    }
+    .red{
+        margin: 0 5vw;
+    }
+    .imgRed{
+        height: 4vh;
+    }
     .tituloHab{
-        font-size: 8.6vw;
+        font-size: 7vw;
         text-align: center;
+    }
+    .tecnologia{
+        width: 6rem;
+        height: 6rem;
     }
     .contenedorImagenTrabajo{
         padding: 1rem;
@@ -219,6 +234,20 @@ a{
         line-height: 2.4rem;
         letter-spacing: 0.3rem;
 
+    }
+    .botonBotanic, .botonPiazzolla{
+        
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 0.6rem;
+        margin: 1rem;
+        height: 4vh;
+    }
+    .LinkPiazzolla, .LinkBotanic{
+        font-size: 0.6rem;
+        text-align: center;
     }
 
     .contacto{
